@@ -29,9 +29,9 @@ public class User {
 
     private String imageUrl;
 
-    @ManyToOne
-    @JoinColumn(name = "group_id")
-    private Group group;
+    @ManyToOne(optional = true)
+    @JoinColumn(name = "team_id", nullable = false)
+    private Team team;
 
     @OneToMany(mappedBy = "user")
     private List<Task> tasks;

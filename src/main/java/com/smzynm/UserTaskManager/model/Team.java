@@ -11,7 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Group {
+public class Team {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -20,6 +20,6 @@ public class Group {
 
     private String responsible;
 
-    @OneToMany(mappedBy = "group")
+    @OneToMany(mappedBy = "team")
     private List<User> users;
 }
