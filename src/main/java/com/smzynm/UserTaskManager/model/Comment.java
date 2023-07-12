@@ -18,7 +18,7 @@ public class Comment {
 
     private String text;
 
-    private boolean read;
+    private boolean is_read;
 
     @ManyToOne
     @JoinColumn(name = "task_id")
