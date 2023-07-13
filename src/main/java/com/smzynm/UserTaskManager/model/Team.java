@@ -19,6 +19,7 @@ public class Team {
     private String name;
 
     private String responsible;
+    private String description;
 
     @OneToMany(mappedBy = "team")
     private List<User> users;
