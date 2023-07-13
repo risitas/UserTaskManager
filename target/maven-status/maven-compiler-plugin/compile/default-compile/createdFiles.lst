@@ -1,0 +1,17 @@
+com\smzynm\UserTaskManager\mapper\TeamMapper.class
+com\smzynm\UserTaskManager\model\User.class
+com\smzynm\UserTaskManager\repository\TeamRepository.class
+com\smzynm\UserTaskManager\mapper\TeamMapperImpl.class
+com\smzynm\UserTaskManager\model\Comment.class
+com\smzynm\UserTaskManager\dto\MessageDto.class
+com\smzynm\UserTaskManager\model\Team.class
+com\smzynm\UserTaskManager\exception\ResourceNotFoundException.class
+com\smzynm\UserTaskManager\exception\GlobalExceptions.class
+com\smzynm\UserTaskManager\services\impl\TeamServiceImpl.class
+com\smzynm\UserTaskManager\exception\AttributeException.class
+com\smzynm\UserTaskManager\model\Task.class
+com\smzynm\UserTaskManager\controller\TeamController.class
+com\smzynm\UserTaskManager\model\Response.class
+com\smzynm\UserTaskManager\services\TeamService.class
+com\smzynm\UserTaskManager\UserTaskManagerApplication.class
+com\smzynm\UserTaskManager\dto\TeamDto.class
