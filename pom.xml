@@ -66,6 +66,31 @@
 			<version>1.5.3.Final</version>
 		</dependency>
 
+		<!-- For twilio -->
+		<dependency>
+			<groupId>com.twilio.sdk</groupId>
+			<artifactId>twilio</artifactId>
+			<version>9.8.0</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<!-- For email -->
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+
+		<!-- For images -->
+
+		<dependency>
+			<groupId>com.cloudinary</groupId>
+			<artifactId>cloudinary-http44</artifactId>
+			<version>1.33.0</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>

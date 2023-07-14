@@ -29,8 +29,11 @@ public class User {
 
     private String imageUrl;
 
+    @Column(name = "team_id", nullable = true)
+    private Long teamId;
+
     @ManyToOne(optional = true)
-    @JoinColumn(name = "team_id", nullable = false)
+    @JoinColumn(name = "team_id",referencedColumnName = "id", insertable = false, updatable = false)
     private Team team;
 
     @OneToMany(mappedBy = "user")
@@ -38,4 +41,7 @@ public class User {
 
     @OneToMany(mappedBy = "user")
     private List<Comment> comments;
+
+
+
 }

@@ -10,10 +10,13 @@ import org.mapstruct.Mappings;
 import java.util.List;
 
 @Mapper(componentModel = "spring")
-
 public interface TeamMapper {
 
-    @Mappings({@Mapping(target = "name", source = "name"), @Mapping(target = "responsible", source = "responsible"), @Mapping(target = "description", source = "description")})
+    @Mappings({
+            @Mapping(target = "name", source = "name"),
+            @Mapping(target = "responsible", source = "responsible"),
+            @Mapping(target = "description", source = "description")
+    })
     TeamDto toTeamDto(Team team);
 
     List<TeamDto> teamDtos(List<Team> teams);

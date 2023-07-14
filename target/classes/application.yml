@@ -10,4 +10,28 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  mail:
+    host: smtp-relay.sendinblue.com
+    port: 587
+    username: emailserver898@gmail.com
+    password: HfSaPUN36bpTkVwL
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+            required: true
+          auth: true
+
+
+
+twilio:
+  account:
+    sid: AC7ae6cad8513316f6c5b1a29bc1594855
+  auth:
+    token: 3cf921617b43f475fdd046179d93749e
+  phone:
+    number: +16188511542
+
+
 
