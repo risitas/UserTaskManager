@@ -35,7 +35,7 @@ public class UserController {
     }
 
     @PostMapping()
-    public ResponseEntity<MessageDto> save(@Valid @RequestBody UserPostDto userPostDto, MessageRequestDto messageRequestDto) throws Exception {
+    public ResponseEntity<MessageDto> save(@Valid @RequestBody UserPostDto userPostDto) throws Exception {
         return ResponseEntity.status(HttpStatus.OK).body(new MessageDto(HttpStatus.OK, false, userService.save(userPostDto)));
 
     }
