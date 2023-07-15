@@ -1,10 +1,14 @@
+com\smzynm\UserTaskManager\mapper\TaskMapperImpl.class
 com\smzynm\UserTaskManager\mapper\TeamMapper.class
+com\smzynm\UserTaskManager\services\TaskService.class
 com\smzynm\UserTaskManager\repository\TeamRepository.class
 com\smzynm\UserTaskManager\controller\EmailController.class
 com\smzynm\UserTaskManager\services\CodeGeneratorService.class
 com\smzynm\UserTaskManager\services\MessageService.class
 com\smzynm\UserTaskManager\model\Team.class
+com\smzynm\UserTaskManager\services\impl\TaskServiceImpl.class
 com\smzynm\UserTaskManager\services\impl\UserServiceImpl.class
+com\smzynm\UserTaskManager\dto\TaskDto.class
 com\smzynm\UserTaskManager\exception\ResourceNotFoundException.class
 com\smzynm\UserTaskManager\exception\GlobalExceptions.class
 com\smzynm\UserTaskManager\model\Task.class
@@ -14,6 +18,7 @@ com\smzynm\UserTaskManager\UserTaskManagerApplication.class
 com\smzynm\UserTaskManager\mapper\get\UserGetMapperImpl.class
 com\smzynm\UserTaskManager\dto\MessageRequestDto.class
 com\smzynm\UserTaskManager\dto\TeamDto.class
+com\smzynm\UserTaskManager\repository\TaskRepository.class
 com\smzynm\UserTaskManager\mapper\post\UserPostMapper.class
 com\smzynm\UserTaskManager\mapper\post\UserPostMapperImpl.class
 com\smzynm\UserTaskManager\services\impl\MessageServiceImpl.class
@@ -31,9 +36,11 @@ com\smzynm\UserTaskManager\controller\ImageController.class
 com\smzynm\UserTaskManager\dto\get\UserGetDto.class
 com\smzynm\UserTaskManager\controller\UserController.class
 com\smzynm\UserTaskManager\services\impl\CodeGeneratorServiceImpl.class
+com\smzynm\UserTaskManager\controller\TaskController.class
 com\smzynm\UserTaskManager\services\impl\TeamServiceImpl.class
 com\smzynm\UserTaskManager\exception\AttributeException.class
 com\smzynm\UserTaskManager\controller\TeamController.class
 com\smzynm\UserTaskManager\services\TeamService.class
+com\smzynm\UserTaskManager\mapper\TaskMapper.class
 com\smzynm\UserTaskManager\services\CloudinaryService.class
 com\smzynm\UserTaskManager\services\UserService.class
