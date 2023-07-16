@@ -16,7 +16,10 @@ public class Response {
 
     private String text;
 
+    @Column(name = "comment_id")
+    private Long commentId;
+
     @ManyToOne
-    @JoinColumn(name = "comment_id")
+    @JoinColumn(name = "comment_id",insertable = false, updatable = false)
     private Comment comment;
 }
