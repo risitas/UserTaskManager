@@ -1,9 +1,12 @@
+com\smzynm\UserTaskManager\dto\ResponseDto.class
 com\smzynm\UserTaskManager\services\MessageService.class
 com\smzynm\UserTaskManager\repository\CommentRepository.class
 com\smzynm\UserTaskManager\mapper\CommentMapper.class
 com\smzynm\UserTaskManager\services\impl\UserServiceImpl.class
 com\smzynm\UserTaskManager\services\CommentService.class
 com\smzynm\UserTaskManager\exception\GlobalExceptions.class
+com\smzynm\UserTaskManager\services\ResponseService.class
+com\smzynm\UserTaskManager\repository\ResponseRepository.class
 com\smzynm\UserTaskManager\model\Task.class
 com\smzynm\UserTaskManager\services\impl\CloudinaryServiceImpl.class
 com\smzynm\UserTaskManager\UserTaskManagerApplication.class
@@ -13,10 +16,12 @@ com\smzynm\UserTaskManager\services\impl\MessageServiceImpl.class
 com\smzynm\UserTaskManager\model\User.class
 com\smzynm\UserTaskManager\services\EmailService.class
 com\smzynm\UserTaskManager\mapper\get\UserGetMapper.class
+com\smzynm\UserTaskManager\mapper\ResponseMapperImpl.class
 com\smzynm\UserTaskManager\dto\MessageDto.class
 com\smzynm\UserTaskManager\mapper\CommentMapperImpl.class
 com\smzynm\UserTaskManager\dto\post\UserPostDto.class
 com\smzynm\UserTaskManager\dto\CommentDto.class
+com\smzynm\UserTaskManager\controller\ResponseController.class
 com\smzynm\UserTaskManager\exception\AttributeException.class
 com\smzynm\UserTaskManager\services\CloudinaryService.class
 com\smzynm\UserTaskManager\services\UserService.class
@@ -40,6 +45,8 @@ com\smzynm\UserTaskManager\mapper\TeamMapperImpl.class
 com\smzynm\UserTaskManager\model\Comment.class
 com\smzynm\UserTaskManager\services\impl\CommentServiceImpl.class
 com\smzynm\UserTaskManager\dto\post\EmailPostDto.class
+com\smzynm\UserTaskManager\services\impl\ResponseServiceImpl.class
+com\smzynm\UserTaskManager\mapper\ResponseMapper.class
 com\smzynm\UserTaskManager\services\impl\EmailServiceImpl.class
 com\smzynm\UserTaskManager\repository\UserRepository.class
 com\smzynm\UserTaskManager\controller\ImageController.class
