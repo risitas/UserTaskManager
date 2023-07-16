@@ -20,12 +20,18 @@ public class Comment {
 
     private boolean is_read;
 
+    @Column(name = "user_id")
+    private Long userId;
+
+    @Column(name = "task_id")
+    private Long taskId;
+
     @ManyToOne
-    @JoinColumn(name = "task_id")
+    @JoinColumn(name = "task_id" , insertable = false, updatable = false)
     private Task task;
 
     @ManyToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "user_id",insertable = false, updatable = false)
     private User user;
 
     @OneToMany(mappedBy = "comment")
