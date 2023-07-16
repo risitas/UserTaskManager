@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.smzynm.UserTaskManager.UserTaskManagerApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.526 s - in com.smzynm.UserTaskManager.UserTaskManagerApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.446 s - in com.smzynm.UserTaskManager.UserTaskManagerApplicationTests

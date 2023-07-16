@@ -1,9 +1,6 @@
 package com.smzynm.UserTaskManager.mapper.get;
 
-import com.smzynm.UserTaskManager.dto.TeamDto;
 import com.smzynm.UserTaskManager.dto.get.UserGetDto;
-import com.smzynm.UserTaskManager.dto.post.UserPostDto;
-import com.smzynm.UserTaskManager.model.Team;
 import com.smzynm.UserTaskManager.model.User;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;

@@ -7,9 +7,11 @@ C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\c
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\model\Task.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\model\Team.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\services\UserService.java
+C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\repository\CommentRepository.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\dto\MessageRequestDto.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\dto\TaskDto.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\services\MessageService.java
+C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\services\impl\CommentServiceImpl.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\controller\TaskController.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\model\Comment.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\services\impl\CloudinaryServiceImpl.java
@@ -17,6 +19,7 @@ C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\c
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\controller\ImageController.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\exception\ResourceNotFoundException.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\mapper\TaskMapper.java
+C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\dto\CommentDto.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\services\impl\CodeGeneratorServiceImpl.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\repository\TaskRepository.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\mapper\post\UserPostMapper.java
@@ -28,6 +31,7 @@ C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\c
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\services\TaskService.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\services\CodeGeneratorService.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\services\TeamService.java
+C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\controller\CommentController.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\services\impl\EmailServiceImpl.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\services\impl\TeamServiceImpl.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\services\impl\MessageServiceImpl.java
@@ -39,4 +43,6 @@ C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\c
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\model\User.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\services\EmailService.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\controller\EmailController.java
+C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\services\CommentService.java
 C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\exception\AttributeException.java
+C:\Users\yosimar.naranjo\Documents\nuevo\Estudio\UserTaskManager\src\main\java\com\smzynm\UserTaskManager\mapper\CommentMapper.java
