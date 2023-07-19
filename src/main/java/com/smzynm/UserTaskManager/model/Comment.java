@@ -26,6 +26,9 @@ public class Comment {
     @Column(name = "task_id")
     private Long taskId;
 
+    @Column(name = "parent_comment_id", nullable = true)
+    private Long parentCommentId;
+
     @ManyToOne
     @JoinColumn(name = "task_id" , insertable = false, updatable = false)
     private Task task;
@@ -34,6 +37,10 @@ public class Comment {
     @JoinColumn(name = "user_id",insertable = false, updatable = false)
     private User user;
 
-    @OneToMany(mappedBy = "comment")
-    private List<Response> responses;
+    @ManyToOne(optional = true)
+    @JoinColumn(name = "parent_comment_id", referencedColumnName = "id", insertable = false, updatable = false)
+    private Comment parentComment;
+
+    @OneToMany(mappedBy = "parentComment")
+    private List<Comment> childComments;
 }

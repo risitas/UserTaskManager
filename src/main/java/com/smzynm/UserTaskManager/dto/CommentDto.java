@@ -15,4 +15,5 @@ public class CommentDto {
 
     @NotNull
     private Long taskId;
+    private Long parentCommentId;
 }

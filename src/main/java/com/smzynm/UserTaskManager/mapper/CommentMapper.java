@@ -21,12 +21,14 @@ public interface CommentMapper {
     @InheritInverseConfiguration
     @Mapping(target = "user", ignore = true)
     @Mapping(target = "task", ignore = true)
-    @Mapping(target = "responses", ignore = true)
+    @Mapping(target = "childComments", ignore = true)
+    @Mapping(target = "parentComment", ignore = true)
     Comment toComment(CommentDto commentDto);
     @InheritInverseConfiguration
     @Mapping(target = "user", ignore = true)
     @Mapping(target = "task", ignore = true)
-    @Mapping(target = "responses", ignore = true)
+    @Mapping(target = "childComments", ignore = true)
+    @Mapping(target = "parentComment", ignore = true)
     List<Comment> toComments(List<CommentDto> commentDtos);
 
 

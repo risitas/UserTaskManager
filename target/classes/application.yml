@@ -3,9 +3,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://root:TecJTzcUb1qjKaYzrTR9@containers-us-west-64.railway.app:6548/railway
-    username: containers-us-west-64.railway.app
-    password: TecJTzcUb1qjKaYzrTR9
+    url: jdbc:mysql://root:X4TpjDTRTctQ9z8kKPbh@containers-us-west-179.railway.app:6961/railway
+    username: containers-us-west-179.railway.app
+    password: X4TpjDTRTctQ9z8kKPbh
   jpa:
     hibernate:
       ddl-auto: update
